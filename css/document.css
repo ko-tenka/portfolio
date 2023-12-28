@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+.container_1 {
+    background-image: url('photo15.jpg');
+    background-size: cover;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 25%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+
+.prevui {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 170px;
+    justify-content: space-between;
+
+}
+.avatar {
+    width: 187px;
+    height: 256px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25); 
+
+    margin-left: 92%;
+}
+.privrt {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+
+}
+.text_1 {
+    margin-top: 210px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.text_2 {
+    margin-left: -30%;
+    margin-right: 30%;
+    margin-top: 60px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.logo {
+    text-align: center;
+    font-size: 130px;
+    margin-top: 50px;
+}
+
+
+
+.container_2 {
+    display: flex;
+    margin-top: 200px;
+}
+
+.avatar_2 {
+    height: 800px;
+}
+.obo_mne {
+    margin-top: 50px;
+    width: 30%;
+    margin-right: 10%;
+    margin-left: auto;
+}
+.glav {
+    font-size: 80px;
+    text-transform: lowercase;
+}
+
+.text_3 {
+    margin-top: 70px;
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+.container_3 {
+    margin-top: 100px;
+}
+
+
+.glav_1 {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 80px;
+    text-transform: lowercase;
+
+}
+.list {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+.parag {
+    text-transform: uppercase;
+
+}
+
+.vid {
+    text-transform: lowercase;
+    margin-top: 10px;
+}
+
+.p0 {
+    width: 45%;
+    margin-top: 15px;
+    margin-right: 0%;
+    margin-left: auto;
+}
+
+.p1 {
+    width: 45%;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+.container_4 {
+    background-image: url('photo_line_color.JPEG');
+    background-size: cover;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding-bottom: 80px;
+}
+
+
+.floor_2 {
+    margin-top: 35px;
+}
+
+
+
+
+
+@media(min-width: 1361px){
+    .dropdown-container {
+        display: none;
+    }
+
+}
+
+@media(min-width: 1200px) and (max-width: 1360px){
+    .menu {
+        width: 40%;
+    }
+    .avatar {
+        width: 187px;
+        height: 256px;
+        margin-left: 0%;
+    }
+    .dropdown-container {
+        display: none;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1199px){
+    .menu {
+        width: 40%;
+    }
+    .avatar {
+        width: 187px;
+        height: 256px;
+        margin-left: 0%;
+    }
+    .logo {
+        font-size: 100px;
+        margin-top: 50px;
+    }
+
+
+
+    .avatar_2 {
+        height: 500px;
+    }
+
+    .obo_mne {
+        margin-top: 0px;
+        width: 45%;
+        margin-right: 5%;
+        margin-left: auto;
+    }
+    .glav {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 60px;
+        text-transform: lowercase;
+    
+    }
+    .text_3 {
+        margin-top: 30px;
+        text-transform: uppercase;
+        line-height: 2;
+    }
+
+    .glav_1 {
+        font-size: 60px;
+    }
+
+
+
+    .list {
+        width: 85%;
+        margin-top: 30px;
+    }
+    .p0,
+    .p1 {
+        width: 60%;
+        margin-top: 40px;
+    }
+
+
+    .links {
+
+        width: 60%;
+        margin-top: 120px;
+        padding-bottom: 100px;
+    }
+
+
+    .dropdown-container {
+        display: none;
+    }
+}
+@media(max-width: 767px){
+    body{
+        font-size: 14px;
+    }
+    .menu {
+        width: 80%;
+    }
+    .avatar {
+        width: 137px;
+        height: 190px;
+        margin-left: 0%;
+    }
+    .prevui {
+        width: 80%;
+        margin-top: 100px;
+    
+    }
+
+    .privrt {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    
+    }
+    .text_1 {
+        font-size: 14px;
+        margin-top: 40px;
+        margin-left: 5%;
+
+    }
+    
+    .text_2 {
+        font-size: 14px;
+        margin-left: -60%;
+        margin-right: 0%;
+        margin-top: 60px;
+ 
+    }
+
+    .logo {
+        font-size: 50px;
+        margin-top: 120px;
+    }
+
+
+    .container_2 {
+        display: flex;
+    }
+
+    .avatar_2 {
+        height: 190px;
+        margin-left: 5%;
+    
+    }
+
+    .obo_mne {
+        margin-top: -0px;
+        width: 60%;
+        margin-right: 5%;
+        margin-left: auto;
+        
+        
+    }
+    .glav {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 50px;
+    }
+    .text_3 {
+        margin-top: 150px;
+        line-height: 2;
+        margin-left: -50%;
+    }
+
+    .glav_1 {
+        font-size: 50px;
+    }
+
+
+
+    .list {
+        width: 80%;
+        margin-top: 30px;
+    }
+    .p0,
+    .p1 {
+        width: 80%;
+        margin-top: 40px;
+    }
+
+
+    .links {
+
+        width: 80%;
+        margin-top: 120px;
+        padding-bottom: 60px;
+    }
+
+    .floor_2{
+        margin-top: 70px;
+    }
+
+
+}
