@@ -11,6 +11,11 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: black;
 }
+
+a{
+    text-decoration: none;
+}
+
 .container_1 {
     background-image: url('photo15.jpg');
     background-size: cover;
@@ -160,6 +165,7 @@ body{
 .floor_2 {
     margin-top: 35px;
 }
+
 
 
 
